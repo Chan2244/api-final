@@ -1,0 +1,2 @@
+### get the root path /
+GET http://localhost:3500/ HTTP/1.1

@@ -1,0 +1,33 @@
+{
+  "name": "api-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chan2244/api-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Chan2244/api-final/issues"
+  },
+  "homepage": "https://github.com/Chan2244/api-final#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0",
+    "nodemon": "^3.1.11",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "mongodb": "^7.0.0",
+    "swagger-autogen": "^2.23.7"
+  }
+}
