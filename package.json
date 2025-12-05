@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "swagger": "node ./swagger.js",
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +22,10 @@
   },
   "homepage": "https://github.com/Chan2244/api-final#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.0.0",
     "nodemon": "^3.1.11",
     "swagger-ui-express": "^5.0.1"
