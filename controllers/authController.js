@@ -3,6 +3,8 @@ const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const SECRET_KEY = process.env.JWT_SECRET;
+const mongodb = require("../db/connect");
+
 const home = (req, res) => {
   res.send("Welcome to the home page");
 };
