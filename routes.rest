@@ -1,2 +1,21 @@
-### get the root path /
+### get tooele tech route
+GET http://localhost:3500/ttech HTTP/1.1
+
+### get the root path
 GET http://localhost:3500/ HTTP/1.1
+
+### get one class
+GET http://localhost:3500/classes/10.9.1.200 HTTP/1.1
+### get all calsses
+GET http://localhost:3500/ HTTP/1.1
+
+### create a class post
+POST http//localhost:3500/classes HTTP/1.1 
+Content-Type: application/json
+
+{
+    "className": "Druid",
+    "hitpoints": "8",
+    "weath": "120",
+    "classAlignment": "Any neutral"
+}
