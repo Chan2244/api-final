@@ -7,7 +7,7 @@ const awesomeFunction = (req, res, next) => {
 };
 
 const tooeleTechFunction = (req, res) => {
-    res.json("anyone seen the druid!");
+    res.json("Anyone seen the druid?");
 };
 
 const getAllClasses = async (req, res) => {
